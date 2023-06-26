@@ -1,0 +1,182 @@
+* {
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../IMAGES/blue-wave-abstract-background-web-background-blue-texture-banner-design-creative-cover-design-backdrop-minimal-background-illustration-vector.jpg);
+    background-size: cover;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    height: 55px;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+}
+
+.links ul li {
+    color: white;
+    margin: 0px 20px;
+    cursor: pointer;
+    list-style: none;
+}
+
+.links ul li a:hover {
+    /* color: rgb(0, 0, 0); */
+    border-bottom: 2px solid orange;
+}
+
+.links ul li:nth-child(3) select {
+    color: white;
+    background-color: transparent;
+    width: 17px;
+    border: none;
+}
+
+.links ul li:nth-child(3) select option {
+    background-color: rgb(201, 201, 201);
+
+}
+
+.links ul li a {
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.contact .iconContact {
+    display: flex;
+}
+
+.contact .iconContact i {
+    color: orange;
+    font-size: 30px;
+    padding-top: 4px;
+    padding-right: 11px;
+}
+
+.contact .iconContact div h3 {
+    font-size: 20px;
+}
+
+.contact .iconContact div h4 {
+    font-size: 10px;
+    line-height: 17px;
+}
+
+.contact button {
+    border: none;
+    background-color: orange;
+    padding: 13px 19px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: rgb(104, 21, 21);
+
+}
+
+.contact button i {
+    padding: 4px;
+}
+
+.sectionOne {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 34em;
+
+}
+
+.leftSide {
+    position: absolute;
+    bottom: 10em;
+    width: 50%;
+}
+
+.leftSide h2 {
+    text-transform: capitalize;
+    font-size: 44px;
+    font-weight: 100;
+}
+
+.leftSide h1 {
+    text-transform: capitalize;
+    font-size: 46px;
+}
+
+.leftSide p {
+    margin-top: 17px;
+    color: #dcd1d1;
+    width: 29em;
+    line-height: 25px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+.button button {
+    padding: 17px 36px;
+    font-size: 20px;
+    background-color: orange;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.button button:hover {
+    background-color: rgb(104, 21, 21);
+}
+
+.button button i {
+    margin-left: 7px;
+}
+
+.button button:nth-child(2) {
+    margin-left: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    ,
+    253,
+    253;
+}
+
+.button button:nth-child(2):hover {
+    background-color: rgb(104, 21, 21);
+}
+
+
+.rightSide {
+    position: absolute;
+    right: -20px;
+    background-image: url(../IMAGES/pexels-cottonbro-studio-3584998.jpg);
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 33px;
+    width: 44%;
+    height: 35em;
+
+}
